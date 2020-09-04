@@ -1,19 +1,21 @@
 Kogu info sain https://laravel.com/docs/7.x ja Koodi Googeldades
 
-sudo apt update
-sudo apt upgrade
-sudo apt-get install php
-sudo apt-get install php7.4-bcmath
-sudo apt install php7.4-zip
-sudo apt install php7.4-mbstring
-sudo apt install php7.4-xml
-php -m
-sudo apt install composer
-sudo apt composer global require laravel/installer
-sudo apt laravel new blog
-composer create-project --prefer-dist laravel/laravel blog
-cd blog
-php artisan serve
+sudo apt update/ uuendab
+sudo apt upgrade /upgradeb
+sudo apt-get install php /installib php
+sudo apt-get install php7.4-bcmath /installib extensioni
+sudo apt install php7.4-zip /installib extensioni
+sudo apt install php7.4-mbstring /installib extensioni
+sudo apt install php7.4-xml /installib extensioni
+php -m / Näitab mis extesionid on installitud
+sudo apt install composer/ installib composeri
+sudo apt composer global require laravel/installer / requireb installer 
+composeri
+
+sudo apt laravel new blog / teeb uue blogi
+composer create-project --prefer-dist laravel/laravel blog/ teeb uue projekti
+cd blog / vahetab kausta blogiks
+php artisan serve / teeb localhost lehe
 Kopeerin localhosti mis sain avan selle chromes
 Code .
 Git init
